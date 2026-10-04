@@ -1,0 +1,39 @@
+# Build output
+build/
+plugin/build/
+**/build/
+
+# PyInstaller
+server/build/
+server/dist/
+*.spec.bak
+
+# Bundled server executable — users download it from Releases
+midispace_server.exe
+
+# Model weights — download from the URL in BUILD.md
+phase1_validate/checkpoints/*.ckpt.data-*
+phase1_validate/checkpoints/*.ckpt.index
+phase1_validate/checkpoints/*.tar
+
+# Vendored frameworks / SDKs (not part of this repo)
+JUCE/
+VST_SDK/
+
+# Temp / installer scratch files
+copy_log*.txt
+copy_vst3.ps1
+hashcheck.ps1
+hashcheck.txt
+
+# Experiment outputs / research artifacts
+phase1_validate/results/
+proto_screenshot.png
+phase7_research.md
+
+# IDE
+.vs/
+*.user
+CMakeCache.txt
+CMakeFiles/
+__pycache__/
