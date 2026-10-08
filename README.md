@@ -4,7 +4,7 @@
 
 A VST3 / Standalone MIDI generator that turns a 2D control space into melodies via Magenta's **MusicVAE** latent-space interpolation.
 
-![MidiSpace plugin UI](docs/screenshot.png)
+<a href="docs/screenshot.png"><img src="docs/screenshot.png" alt="MidiSpace plugin UI" width="480"></a>
 
 ---
 
